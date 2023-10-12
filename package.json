@@ -1,7 +1,41 @@
 {
   "name": "web.scadajs",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "description": "web.scadajs is web client app for scadajs solution developed using javascript",
+  "keywords": [
+    "scada",
+    "supervisory control and data acquisition",
+    "plc",
+    "programmable logic controller",
+    "ihm",
+    "human-machine interface",
+    "oee",
+    "overall equipment effectiveness",
+    "iot",
+    "internet of things",
+    "wot",
+    "web of things",
+    "raspberry pi",
+    "arduino",
+    "javascript",
+    "js"
+  ],
+  "author": {
+    "name": "scadajs team",
+    "email": "to@scadajs.com",
+    "url": "https://scadajs.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/scadajs/web.scadajs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scadajs/web.scadajs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scadajs/web.scadajs/issues"
+  },
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "vite",
