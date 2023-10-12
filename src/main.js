@@ -3,6 +3,14 @@ import './assets/style.css';
 import jsLogo from '/jslogo.png';
 import { setupCounter } from './counter';
 
+// Import the functions you need from the SDKs you need
+import { initializeApp } from 'firebase/app';
+import { getAnalytics } from 'firebase/analytics';
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+import './loader';
+
 document.querySelector('#app').innerHTML = `
   <div>
     <a href="https://scadajs.com" target="_blank">
@@ -19,3 +27,23 @@ document.querySelector('#app').innerHTML = `
 `;
 
 setupCounter(document.querySelector('#counter'));
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: 'AIzaSyB9vwr4L8dE-bUx_OYKdOC0WR1bqwuna0Q',
+  authDomain: 'scadajscom-vx.firebaseapp.com',
+  projectId: 'scadajscom-vx',
+  storageBucket: 'scadajscom-vx.appspot.com',
+  messagingSenderId: '510018468329',
+  appId: '1:510018468329:web:4006b9632895760dd47378',
+  measurementId: 'G-QS7QD5ZD4R',
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+const analytics = getAnalytics(app);
+
+console.log(`firebase initialized: ${app.name}`);
+console.log(`google analytics: ${analytics.app.name}`);

@@ -53,5 +53,8 @@
     "husky": "^8.0.3",
     "prettier": "^3.0.3",
     "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "firebase": "^10.5.0"
   }
 }
