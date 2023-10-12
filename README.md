@@ -1,8 +1,9 @@
 # web.scadajs
+
 web.scadajs is web client app for scadajs solution developed using javascript
 
-
 ## vite
+
 ```bash
 ❯ npm init vite@latest
 ✔ Project name: … .
@@ -26,7 +27,7 @@ You can also run this command directly using 'npm init @eslint/config'.
 ✔ How would you like to use ESLint? · style
 ✔ What type of modules does your project use? · esm
 ✔ Which framework does your project use? · none
-✔ Does your project use TypeScript? · No 
+✔ Does your project use TypeScript? · No
 ✔ Where does your code run? · browser
 ✔ How would you like to define a style for your project? · guide
 ✔ Which style guide do you want to follow? · airbnb
