@@ -1,0 +1,60 @@
+{
+  "name": "web.scadajs",
+  "private": true,
+  "version": "0.0.1",
+  "description": "web.scadajs is web client app for scadajs solution developed using javascript",
+  "keywords": [
+    "scada",
+    "supervisory control and data acquisition",
+    "plc",
+    "programmable logic controller",
+    "ihm",
+    "human-machine interface",
+    "oee",
+    "overall equipment effectiveness",
+    "iot",
+    "internet of things",
+    "wot",
+    "web of things",
+    "raspberry pi",
+    "arduino",
+    "javascript",
+    "js"
+  ],
+  "author": {
+    "name": "scadajs team",
+    "email": "to@scadajs.com",
+    "url": "https://scadajs.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/scadajs/web.scadajs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scadajs/web.scadajs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scadajs/web.scadajs/issues"
+  },
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "npx eslint . --ext .js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "prettier": "npx prettier --write --ignore-unknown ."
+  },
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.3",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "firebase": "^10.5.0"
+  }
+}
