@@ -130,4 +130,4 @@ dist
 .pnp.*
 
  # macos file
-  .DS_Store
+.DS_Store

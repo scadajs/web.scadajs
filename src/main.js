@@ -1,23 +1,19 @@
 import './assets/style.css';
-import javascriptLogo from './assets/javascript.svg';
 // eslint-disable-next-line import/no-absolute-path, import/no-unresolved
-import viteLogo from '/vite.svg';
+import jsLogo from '/jslogo.png';
 import { setupCounter } from './counter';
 
 document.querySelector('#app').innerHTML = `
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
+    <a href="https://scadajs.com" target="_blank">
+      <img src="${jsLogo}" class="logo" alt="js logo" />
     </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
+    <h1>scadajs.com!</h1>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
     <p class="read-the-docs">
-      Click on the Vite logo to learn more
+      Click on the js logo to learn more about scadajs.com
     </p>
   </div>
 `;
